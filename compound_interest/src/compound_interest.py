@@ -5,6 +5,6 @@ class CompoundInterest:
         self.r = interest_rate
         self.t = years
 
-    def compound_interest(self, p, r, t):
-        return p * ((1 + (r/12)) **(12 * t))
+    def compound_interest(self):
+        return self.p * ((1 + (self.r/12)) **(12 * self.t))
 

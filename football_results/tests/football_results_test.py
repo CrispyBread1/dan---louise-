@@ -2,7 +2,7 @@ import unittest
 from src.football_results import *
 
 class FootballResultsTest(unittest.TestCase):
-    pass
+    
     # Test we get the right result string for a final score dictionary representing -
     def setUp(self):
         self.result_1 = {"home_team": 0, "away_team": 1}
