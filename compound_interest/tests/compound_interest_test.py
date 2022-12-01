@@ -3,8 +3,14 @@ import unittest
 from src.compound_interest import CompoundInterest
 
 class CompoundInterestTest(unittest.TestCase):
-    pass
+    
+    def __init__(self):
+        self.compound = CompoundInterest
+    
     # Tests
+    def test_compount1(self):
+        total = self.compound.compound_interest(100, 0.1, 20)
+        self.assertEqual(732.81, total)
 
     # Should return 732.81 given 100 principal, 10 percent, 20 years
 
