@@ -39,9 +39,9 @@ class CompoundInterestTest(unittest.TestCase):
 
 
     # Should return 100.00 given 100 principal, 0 percent, 10 years
-    # def test_compound3(self):
-    #     total = self.compound.compound_interest()
-    #     self.assertEqual(100, total)
+    def test_compound3(self):
+        total = self.compound.compound_interest()
+        self.assertEqual(100, total)
 
 
     # Extention tests
